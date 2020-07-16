@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.grpc.application.echo";
+option java_outer_classname= "EchoProto";
+option objc_class_prefix = "ECOP";
+
+package echo;
+
+// the service of echo
+service TaleTeller {
+
+    // get echo
+    rpc GetTale(Title) returns (Story) {}
+}
+
+// something is said
+message Title {
+
+    string name = 1;
+}
+
+// something is repeated
+message Story {
+
+    string content = 1;
+}
