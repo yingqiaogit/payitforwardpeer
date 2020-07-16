@@ -1,4 +1,4 @@
-﻿# echo-node-typescript-grpc
+﻿# echo-peer
 
 This node peer contains a RESTful server and gRPC server and client. The echo RESTful service will access the Echo gRPC server through a gRPC client.  
 
