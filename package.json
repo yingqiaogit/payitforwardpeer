@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tsc --skipLibCheck",
+    "build": "npm run build:protos && npx tsc --skipLibCheck",
+    "build:protos": "node ./bin/build-protos.js",
     "start": "ts-node src/index.ts"
   },
   "author": "",
@@ -24,6 +25,7 @@
     "grpc-tools": "^1.9.0",
     "grpc_tools_node_protoc_ts": "^4.1.0",
     "nodemon": "^2.0.4",
+    "shelljs": "^0.8.4",
     "typescript": "^3.9.6"
   }
 }
