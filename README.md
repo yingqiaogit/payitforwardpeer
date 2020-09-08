@@ -19,7 +19,7 @@ This node peer contains a RESTful server and gRPC server and client. The echo RE
 - url `localhost:3000/echo/<name>`, replace "\<name\>" with a string, get response from restful service which accesses the gRPC Echo Server through a gRPC client 
 
 ## Generate gRPC server and client from Protocol Buffer file
-- run `./scripts/build-protos.sh`
+- run `npm run build:protos`
 
 ## Port Number
 - rest: 3000
