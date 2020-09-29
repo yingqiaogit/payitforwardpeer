@@ -13,9 +13,16 @@
   "license": "ISC",
   "dependencies": {
     "@hapi/hapi": "^19.1.1",
-    "dotenv": "^8.2.0",
+    "@harmony-js/core": "^0.1.54",
+    "@types/bip39": "^3.0.0",
+    "@types/hdkey": "^0.7.1",
+    "@types/websocket": "^1.0.1",
+    "cerialize": "^0.1.18",
+    "chalk": "^4.1.0",
+    "cross-env": "^7.0.2",
     "google-protobuf": "^3.12.2",
-    "grpc": "^1.24.3"
+    "grpc": "^1.24.3",
+    "inquirer": "^7.3.3"
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",

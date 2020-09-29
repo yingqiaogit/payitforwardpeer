@@ -3,6 +3,7 @@
     "outDir": "./dist/",
     "module": "commonjs",
     "noImplicitAny": true,
+    "experimentalDecorators": true,
     "allowJs": true,
     "esModuleInterop": true,
     "target": "ES2019",

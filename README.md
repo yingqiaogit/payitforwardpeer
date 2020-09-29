@@ -1,6 +1,6 @@
-﻿# echo-peer
+﻿# Pay It Forward Peer
 
-This node peer contains a RESTful server and gRPC server and client. The echo RESTful service will access the Echo gRPC server through a gRPC client.  
+This nodejs is a back end of the payitforward project
 
 ## Pre-build
 - run `npm install`
@@ -18,13 +18,3 @@ This node peer contains a RESTful server and gRPC server and client. The echo RE
 - url `localhost:3000/<name>`, replace "\<name\>" with a string, get response from restful service without gRPC
 - url `localhost:3000/echo/<name>`, replace "\<name\>" with a string, get response from restful service which accesses the gRPC Echo Server through a gRPC client 
 
-## Generate gRPC server and client from Protocol Buffer file
-- run `npm run build:protos`
-
-## Port Number
-- rest: 3000
-- gRPC: 30051
-
-## References
-- https://adnanahmed.info/blog/2019/11/01/grpc-with-nodejs-typescript/
-- https://github.com/CatsMiaow/node-grpc-typescript
