@@ -1,6 +1,6 @@
 ﻿# Pay It Forward Peer
 
-This nodejs is a back end of the payitforward project
+This nodejs application is a backend of the payitforward project
 
 ## Pre-build
 - run `npm install`
