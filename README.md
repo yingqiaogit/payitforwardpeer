@@ -49,3 +49,6 @@ This nodejs application is a backend of the payitforward project
     "account": "alice",
     "amount": "20"
 }`
+
+### Current stage:
+- only works in testnet
