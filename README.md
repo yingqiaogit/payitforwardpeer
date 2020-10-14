@@ -2,6 +2,9 @@
 
 This nodejs application is a backend of the payitforward project
 
+## Try it out
+https://payitforward-backend.web.app
+
 ## Pre-build
 - run `npm install`
 
