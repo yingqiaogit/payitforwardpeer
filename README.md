@@ -1,6 +1,6 @@
 ﻿# Pay It Forward Peer
 
-This nodejs application is a backend of the payitforward project
+This nodejs application is a backend of the payitforward project https://devpost.com/software/pay-it-forward-962ag3
 
 ## Try it out
 https://payitforward-backend.web.app
